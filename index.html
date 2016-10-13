@@ -55,6 +55,10 @@
                     </ul>
                 </section>
 
+
+                <section>                    
+                        <a href="https://vimeo.com/search?q=rv+prototype">Greg Lynn - RV prototype</a>
+                </section>
                 <section>                    
                         <iframe src="https://player.vimeo.com/video/44480836" width="1000" height="562" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> 
                 </section>
@@ -101,8 +105,17 @@
                     <img src="img/pwm1.png" height="400">
                     </section>
                     <section>
-                    <img src="img/pwm.png" height="600">
+                    <p>
+                    Pulse Width Modulation, or PWM, is a technique for getting analog results with digital means. Digital control is used to create a square wave, a signal switched between on and off. This on-off pattern can simulate voltages in between full on (5 Volts) and off (0 Volts) by changing the portion of the time the signal spends on versus the time that the signal spends off. The duration of "on time" is called the pulse width. To get varying analog values, you change, or modulate, that pulse width. If you repeat this on-off pattern fast enough with an LED for example, the result is as if the signal is a steady voltage between 0 and 5v controlling the brightness of the LED.
+                    </p>
                     </section>
+<section>
+                    <p>
+In the graphic below, the green lines represent a regular time period. This duration or period is the inverse of the PWM frequency. In other words, with Arduino's PWM frequency at about 500Hz, the green lines would measure 2 milliseconds each. A call to analogWrite() is on a scale of 0 - 255, such that analogWrite(255) requests a 100% duty cycle (always on), and analogWrite(127) is a 50% duty cycle (on half the time) for example.
+</p>
+<img src="img/pwm3.png" height="300">
+</section>
+
                     </section>
 
                 <!-- Example of nested vertical slides -->
