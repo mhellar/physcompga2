@@ -16,7 +16,6 @@ void loop(){
   
   val=analogRead(sensorPin);
   
-  Serial.print("sensor = " );
   Serial.println(val);
 
   if (val<340) {
